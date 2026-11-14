@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Constructora E&A. Gestión de proyectos de construcción. Contacte a Josué Torres para conversar sobre su proyecto.">
+<title>Constructora E&A | Construimos tus proyectos</title>
+<style>
+:root{--navy:#07182e;--blue:#0878df;--silver:#d7e0ea;--ink:#142235;--muted:#637286;--paper:#f5f8fc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(7,24,46,.96);backdrop-filter:blur(10px);border-bottom:1px solid #ffffff20}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{display:flex;align-items:center;gap:12px;color:white;font-weight:800;letter-spacing:.04em}
+.brand img{width:54px;height:54px;object-fit:cover;border-radius:10px;background:#fff}
+.brand small{display:block;color:#a9c7e8;font-size:11px;letter-spacing:.16em;font-weight:600}
+nav{display:flex;gap:24px;color:#e6eef8;font-size:14px}
+nav a:hover{color:#67b5ff}
+.hero{background:radial-gradient(circle at 80% 15%,#14518a 0,transparent 32%),linear-gradient(120deg,#061326,#0b2949 65%,#07182e);color:white;padding:76px 0 82px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:48px}
+.eyebrow{color:#79bdff;text-transform:uppercase;letter-spacing:.2em;font-size:12px;font-weight:800}
+h1{font-size:clamp(38px,5.5vw,66px);line-height:1.04;margin:14px 0 20px;letter-spacing:-.04em}
+.hero p{font-size:18px;color:#d4e2f1;max-width:590px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:8px;font-weight:800;transition:.2s}
+.primary{background:#0878df;color:#fff;box-shadow:0 8px 24px #0878df44}
+.primary:hover{background:#168cf5;transform:translateY(-2px)}
+.secondary{border:1px solid #8eabc9;color:#fff}
+.hero-logo{width:100%;max-width:520px;justify-self:end;border-radius:18px;box-shadow:0 24px 65px #0008;border:1px solid #ffffff35}
+.strip{background:#eaf2fa;border-bottom:1px solid #d8e3ee}
+.strip-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:17px 0;color:#25415f;font-weight:700;font-size:14px}
+section{padding:76px 0}
+.section-kicker{color:#0878df;text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-size:12px}
+h2{font-size:clamp(28px,4vw,42px);line-height:1.12;margin:10px 0 16px;color:var(--navy);letter-spacing:-.03em}
+.lead{color:var(--muted);max-width:700px;font-size:17px}
+.services{background:var(--paper)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.card{background:#fff;padding:27px;border:1px solid #e1e8f0;border-radius:14px;box-shadow:0 8px 28px #152d4710}
+.card .num{font-size:13px;color:#0878df;font-weight:900;letter-spacing:.15em}
+.card h3{margin:12px 0 8px;color:var(--navy);font-size:20px}
+.card p{color:var(--muted);margin:0}
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:center}
+.portrait{width:100%;max-width:390px;aspect-ratio:4/5;object-fit:cover;object-position:center 25%;border-radius:18px;box-shadow:0 18px 45px #0b294922}
+.about-panel{background:#f0f5fa;border-left:4px solid #0878df;padding:22px 24px;border-radius:0 12px 12px 0;margin-top:24px}
+.contact{background:linear-gradient(120deg,#061326,#0b2a4b);color:white}
+.contact h2{color:white}
+.contact .lead{color:#d2e0ef}
+.contact-grid{display:grid;grid-template-columns:1fr auto;align-items:center;gap:28px}
+.contact-info{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.contact-chip{padding:10px 14px;border:1px solid #ffffff38;border-radius:8px;color:#e7f1fb}
+footer{background:#040d19;color:#aab8c8;padding:23px 0;font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){
+nav{gap:12px;font-size:12px}.hero{padding:54px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+.hero-logo{justify-self:start;max-width:100%}.cards{grid-template-columns:1fr}section{padding:58px 0}
+.brand img{width:44px;height:44px}.brand{font-size:14px}
+}
+@media(max-width:460px){nav a:nth-child(2){display:none}.strip-inner{font-size:12px}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap nav">
+<a class="brand" href="#inicio">
+<img src="assets/imagen-1.png" alt="Logotipo de Constructora E&A">
+<span>CONSTRUCTORA E&A<small>DISEÑO · CONSTRUCCIÓN · REMODELACIÓN</small></span>
+</a>
+<nav aria-label="Navegación principal">
+<a href="#servicios">Servicios</a><a href="#proyectos">Proyectos</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="hero" id="inicio">
+<div class="wrap hero-grid">
+<div>
+<div class="eyebrow">Constructora E&A</div>
+<h1>Construimos tus proyectos con compromiso.</h1>
+<p>Soluciones para tus proyectos de construcción, con atención cercana y acompañamiento durante cada etapa.</p>
+<div class="actions">
+<a class="btn primary" href="https://www.google.com/url?q=https://wa.me/50661036758?text%3DHola%252C%2520quiero%2520consultar%2520sobre%2520un%2520proyecto%2520con%2520Constructora%2520E%2526A&source=gmail&ust=1794726510247000&sa=E" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+<a class="btn secondary" href="#servicios">Conocer servicios</a>
+</div>
+</div>
+<img class="hero-logo" src="assets/imagen-2.png" alt="Identidad visual de Constructora E&A">
+</div>
+</section>
+<div class="strip"><div class="wrap strip-inner">
+<span>Atención personalizada</span><span>Gestión de proyectos</span><span>Contacto directo</span>
+</div></div>
+<section class="services" id="servicios">
+<div class="wrap">
+<div class="section-kicker">Lo que hacemos</div>
+<h2>Servicios de construcción</h2>
+<p class="lead">Cuéntanos qué tienes en mente. Podemos conversar sobre el alcance de tu proyecto y orientarte sobre los siguientes pasos.</p>
+<div class="cards">
+<article class="card"><div class="num">01 / CONSTRUCCIÓN</div><h3>Construcción</h3><p>Atención de proyectos de construcción desde la planificación hasta la ejecución, según el alcance acordado.</p></article>
+<article class="card"><div class="num">02 / REMODELACIÓN</div><h3>Remodelaciones y ampliaciones</h3><p>Mejoras y transformaciones de espacios existentes para adaptarlos a tus necesidades.</p></article>
+<article class="card"><div class="num">03 / ACABADOS</div><h3>Obra gris y acabados</h3><p>Conversamos sobre las etapas de obra y los acabados que requiere tu proyecto.</p></article>
+</div>
+</div>
+</section>
+<section class="services" id="proyectos">
+<div class="wrap">
+<div class="section-kicker">Galería visual</div>
+<h2>Proyectos e inspiración</h2>
+<p class="lead">Una muestra visual de estilos de construcción, remodelación y espacios terminados que pueden servir de inspiración para tu proyecto.</p>
+<div style="margin-top:30px">
+<img src="assets/imagen-3.png" alt="Galería promocional ilustrativa de Constructora E&A con ejemplos de casas modernas, remodelaciones y espacios exteriores" style="display:block;width:100%;height:auto;border-radius:16px;box-shadow:0 14px 38px #10243a20">
+</div>
+<p style="font-size:13px;color:#637286;margin-top:12px">Nota: las imágenes y reseñas que aparecen en esta composición son ilustrativas; no representan obras ni testimonios reales verificados de la empresa.</p>
+</div>
+</section>
+<section id="nosotros">
+<div class="wrap about-grid">
+<img class="portrait" src="assets/imagen-1.jpg" alt="Josué Torres, gestor de proyecto de Constructora E&A">
+<div>
+<div class="section-kicker">Conoce al equipo</div>
+<h2>Atención directa para tu proyecto</h2>
+<p class="lead">Josué Torres, Gestor de Proyecto de Constructora E&A, es tu contacto para conversar sobre tus ideas, necesidades y próximos pasos.</p>
+<div class="about-panel"><strong>Constructora E&A</strong><br>Calidad y compromiso en cada proyecto.</div>
+</div>
+</div>
+</section>
+<section class="contact" id="contacto">
+<div class="wrap contact-grid">
+<div>
+<div class="section-kicker">Hablemos de tu proyecto</div>
+<h2>¿Listo para comenzar?</h2>
+<p class="lead">Escríbenos para compartir tu idea y solicitar información.</p>
+<div class="contact-info">
+<span class="contact-chip">Josué Torres · Gestor de Proyecto</span>
+<span class="contact-chip">Tel. 6103-6758</span>
+</div>
+</div>
+<a class="btn primary" href="https://www.google.com/url?q=https://wa.me/50661036758?text%3DHola%252C%2520quiero%2520informaci%25C3%25B3n%2520de%2520Constructora%2520E%2526A&source=gmail&ust=1794726510247000&sa=E" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+</div>
+</section>
+</main>
+<footer><div class="wrap"><span>© 2026 Constructora E&A. Todos los derechos reservados.</span><span>Josué Torres · Gestor de Proyecto</span></div></footer>
+</body>
+</html>
